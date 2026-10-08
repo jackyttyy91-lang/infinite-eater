@@ -86,7 +86,7 @@ var progression =
     {
         return Decimal.floor(new Decimal(Math.max(0, Decimal.log10(size.div(1e50)) / 10)).add(Decimal.max(0, Decimal.pow(1.01, Decimal.log10(size)).sub(1))));
     },
-    eatMultiplier: new Decimal(1),
+    eatMultiplier: new Decimal(100),
     xp: new Decimal(0), //currency for buying upgrades
     totalXp: new Decimal(0),
     upgrades: 
